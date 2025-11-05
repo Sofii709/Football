@@ -36,10 +36,7 @@ ul {
 
 .logo_container {
     padding-top: 15px;
-}
-
-.logo {
-    padding-right: 34px;
+    column-gap: 34px;
 }
 
 .logo p {
@@ -47,7 +44,7 @@ ul {
     color: #39930d;
 }
 
-.logo h1 {
+.logo .h1 {
     font-size: 44px;
     color: #39930d;
     font-weight: bold;
@@ -95,10 +92,10 @@ ul {
 }
 
 .about {
-    width: 65%;
+    max-width: 65%;
 }
 
-.about h2 {
+.about .h2 {
     font-size: 24px;
     color: #39930d;
     font-weight: bold;
