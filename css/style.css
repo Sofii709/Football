@@ -112,12 +112,12 @@ ul {
     padding-bottom: 15px;
 }
 
-.navigation h2 {
+.navigation .h2 {
     margin-bottom: 20px;
     font-size: 18px;
     color: #ffffff;
     background-color: #39930d;
-    padding: 15px 114px 15px 25px;
+    padding: 14px 114px 14px 24px;
 }
 
 .navigation a {
