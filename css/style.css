@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial";
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+}
+
+header, main {
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green_container {
+    background-color: #8dc63f;
+}
+
+.logo_container {
+    padding-top: 15px;
+}
+
+.logo {
+    padding-right: 34px;
+}
+
+.logo p {
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo h1 {
+    font-size: 44px;
+    color: #39930d;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+.logo .official {
+    font-size: 14px;
+    color: #5a5a5a;
+
+}
+
+.contact h2 {
+    padding-bottom: 10px;
+    padding-top: 12px;
+}
+
+.contact a {
+    font-size: 22px;
+    color: #39930d;
+    text-align: right;
+    transition: all 1s ease;
+}
+
+.contact a:hover {
+    color: #5a5a5a;
+}
+
+.contact p {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+    text-align: right;
+}
+
+.main_picture {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.main_picture img {
+    width: 100%;
+}
+
+.about {
+    width: 65%;
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #39930d;
+    font-weight: bold;
+    padding-bottom: 17px;
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+    padding-bottom: 15px;
+}
+
+.navigation h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #39930d;
+    padding: 15px 114px 15px 25px;
+}
+
+.navigation a {
+    font-size: 14px;
+    line-height: 0.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+    transition: all 1s ease;
+}
+
+.navigation a:hover {
+    color: #343434;
+}
+
+.navigation li {
+    padding-bottom: 10px;
+    padding-left: 22px;
+}
+
+footer {
+    background-color: #39930d;
+    height: 44px;
+}
+
+footer p {
+    padding-left: 15px;
+    padding-top: 11px;
+    font-size: 14px;
+    color: #ffffff;
+}
