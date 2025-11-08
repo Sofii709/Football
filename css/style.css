@@ -109,12 +109,16 @@ ul {
     padding-bottom: 15px;
 }
 
+.navigation {
+    min-width: 25%;
+}
+
 .navigation .h2 {
     margin-bottom: 20px;
     font-size: 18px;
     color: #ffffff;
     background-color: #39930d;
-    padding: 14px 114px 14px 24px;
+    padding: 14px 24px 14px 24px;
 }
 
 .navigation a {
