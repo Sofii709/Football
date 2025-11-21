@@ -9,12 +9,16 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    width: 80%;
+    max-width: 960px;
     background-color: white;
 }
 
-header, main {
+header {
     padding: 10px 15px;
+}
+
+main {
+    padding: 10px 15px 32px 15px;
 }
 
 a {
@@ -30,12 +34,15 @@ ul {
     justify-content: space-between;
 }
 
+.header {
+    padding-top: 15px;
+}
+
 .green_container {
     background-color: #8dc63f;
 }
 
 .logo_container {
-    padding-top: 15px;
     column-gap: 34px;
 }
 
@@ -48,7 +55,6 @@ ul {
     font-size: 44px;
     color: #39930d;
     font-weight: bold;
-    padding-top: 3px;
     padding-bottom: 6px;
 }
 
@@ -110,11 +116,10 @@ ul {
 }
 
 .navigation {
-    min-width: 25%;
+    min-width: 30%;
 }
 
 .navigation .h2 {
-    margin-bottom: 20px;
     font-size: 18px;
     color: #ffffff;
     background-color: #39930d;
@@ -134,19 +139,25 @@ ul {
     color: #343434;
 }
 
+.navigation ul {
+    padding-left: 22px;
+}
+
+.navigation li:first-child {
+    padding-top: 20px;
+}
+
 .navigation li {
     padding-bottom: 10px;
-    padding-left: 22px;
 }
 
 footer {
     background-color: #39930d;
-    height: 44px;
+    padding: 16px 0;
 }
 
 footer p {
     padding-left: 15px;
-    padding-top: 11px;
     font-size: 14px;
     color: #ffffff;
 }
