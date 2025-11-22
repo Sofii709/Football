@@ -98,7 +98,7 @@ ul {
 }
 
 .about {
-    max-width: 65%;
+    max-width: 594px;
 }
 
 .about .h2 {
@@ -116,7 +116,7 @@ ul {
 }
 
 .navigation {
-    min-width: 30%;
+    min-width: 300px;
 }
 
 .navigation .h2 {
