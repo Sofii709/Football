@@ -187,13 +187,13 @@ footer p {
     color: #ffffff;
 }
 
-@media screen and (min-width: 495) {
-    .contact {
-        text-align: right;
-    }
+@media screen and (min-width: 495px) {
+    .contact .p {
+    text-align: right;
+}
 }
 
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 768px) {
     html {
         font-size: 0.9px;
     }
@@ -203,13 +203,13 @@ footer p {
     }
 }
 
-@media screen and(min-width:1440px) {
+@media screen and (min-width:1440px) {
     html {
         font-size: 1px;
     }
 }
 
-@media screen and(min-width:1920px) {
+@media screen and (min-width:1920px) {
     html {
         font-size: 1.4px;
     }
