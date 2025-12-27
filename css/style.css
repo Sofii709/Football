@@ -18,7 +18,7 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 960rem;
     background-color: white;
 }
 
@@ -122,7 +122,7 @@ ul {
 }
 
 .about {
-    max-width: 594rem;
+    width: 100%;
 }
 
 .about .h2 {
@@ -140,14 +140,13 @@ ul {
 }
 
 .navigation {
-    min-width: 300rem;
+    width: 100%;
 }
 
 .navigation .h2 {
     font-size: 18rem;
     color: #ffffff;
     background-color: #39930d;
-    max-width: 300rem;
     padding: 14rem 24rem 14rem 24rem;
 }
 
@@ -189,8 +188,8 @@ footer p {
 
 @media screen and (min-width: 495px) {
     .contact .p {
-    text-align: right;
-}
+        text-align: right;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -200,6 +199,20 @@ footer p {
 
     .main_picture img {
         object-position: 0;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .about {
+        max-width: 594rem;
+    }
+
+    .navigation {
+        max-width: 300rem;
+    }
+
+    .navigation .h2 {
+        max-width: 300rem;
     }
 }
 
